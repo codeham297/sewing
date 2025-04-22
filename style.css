@@ -1,0 +1,29 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    display: inline-block;
+    width: 40px;
+    height: auto;
+    clear: both;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'PlaywriteAUSA';
+    font-style: normal;
+    src: url(./src/fonts/PlaywriteAUSA-VariableFont_wght.ttf) format('truetype');
+}
+
+.logo-name {
+    font-family: 'PlaywriteAUSA', sans-serif;
+    font-size: 2.5em;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
