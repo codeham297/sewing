@@ -50,14 +50,15 @@
 
 .intro {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    width: 100%;
     height: 100vh;
+    width: 100%;
     background-image: url(./src/img/close-up-high-tech-embroidery-machine-creating-intricate-patterns-fabric-showcasing-craftsmanship-advanced-technology-360447779.webp);
     background-repeat: no-repeat;
     background-position: right;
-    background-size: contain
+    background-size: contain;
+    position: relative;
 }
 
 .intro form>* {
@@ -66,15 +67,11 @@
 }
 
 .top-left {
+    position: absolute;
     width: 50%;
-    padding: 10px 0px 10px 0px;
-    height: 50vh;
+    height: 100%;
+    padding: 20px;
     background-color: #122526;
-}
-
-.top-right {
-    height: 50vh;
-    width: 50%;
 }
 
 
