@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.top {}
+
+.navbar {
+    display: flex;
+
+
+}
+
+.logo {
+    display: inline-block;
+    width: 50%;
+}
+
+.navbar-links {
+    display: inline-block;
+    width: auto;
+}
+
+.navbar-links ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links li {
+    display: inline-block;
+}
