@@ -1,33 +1,100 @@
-body {
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-}
-
-.top {}
-
-.navbar {
-    display: flex;
-
-
+.top {
+    background-color: blue;
 }
 
 .logo {
+    background-color: red;
+    display: inline-block;
+
+}
+
+.navbar-links {
+    background-color: green;
+    display: inline-block;
+    float: right;
+}
+
+.navbar-links li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar-links a:hover {
+    background-color: yellow;
+}
+
+.intro {
+    background-image: url(./src/img/close-up-high-tech-embroidery-machine-creating-intricate-patterns-fabric-showcasing-craftsmanship-advanced-technology-360447779.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.top-left {
+    background-color: blue;
     display: inline-block;
     width: 50%;
 }
 
-.navbar-links {
+.top-left form {
     display: inline-block;
-    width: auto;
+    width: 100%;
 }
 
-.navbar-links ul {
+.top-left form * {
     display: flex;
-    padding: 0;
-    margin: 0;
+    justify-self: center;
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
 }
 
-.navbar-links li {
-    display: inline-block;
+.top-left form button {
+    display: flex;
+    width: calc(100% - 18px);
+    justify-content: center;
+    align-content: center;
+}
+
+.bottom {
+    background-color: red;
+    width: 100%;
+    text-align: center;
+}
+
+
+.services {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: last baseline;
+    gap: 20px;
+}
+
+.service-item {
+    width: 33%;
+}
+
+.service-item img {
+    width: 70%;
+    height: auto;
+}
+
+.container .row .footer-links li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
 }
