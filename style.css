@@ -169,3 +169,48 @@ a {
 a:hover {
     color: red;
 }
+
+.contact-details {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container form {
+    width: 300px;
+    background-color: #122526;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form * {
+    display: flex;
+    justify-self: center;
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    text-align: center;
+    background-color: #596667;
+    color: #a2bD7E;
+}
+
+.container form button {
+    display: flex;
+    width: calc(100% - 18px);
+    justify-content: center;
+    align-content: center;
+    transition: 0.3s ease-in;
+}
+
+.container form button:hover {
+    cursor: pointer;
+    background-color: #54CFDB;
+    color: white;
+    transform: scale(1.2);
+}
