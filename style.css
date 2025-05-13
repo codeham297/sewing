@@ -34,6 +34,20 @@ body {
     ;
 }
 
+.logo:hover {
+    cursor: pointer;
+    color: #54CFDB;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.logo a:hover {
+    color: #54CFDB;
+}
+
 .navbar-links {
     display: inline-block;
     float: right;
