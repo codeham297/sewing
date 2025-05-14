@@ -54,27 +54,7 @@ body {
     padding-right: 3%;
 }
 
-@media screen and (max-width: 768px) {
-    .logo {
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-        width: 100%;
-    }
 
-    .navbar-links {
-        width: 100%;
-        display: inline-block;
-        float: none;
-        padding-right: 0;
-        text-align: center;
-    }
-
-    .top-left {
-        padding: 0;
-    }
-
-}
 
 .navbar-links li {
     transition: 0.3s ease-in;
@@ -249,4 +229,41 @@ li {
     background-color: #54CFDB;
     color: white;
     transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar-links {
+        width: 100%;
+        display: inline-block;
+        float: none;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .top-left {
+        background-color: rgba(18, 37, 38, 0.5);
+        ;
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .services {
+        flex-direction: column;
+    }
+
+    .service-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
 }
