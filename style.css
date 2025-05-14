@@ -54,6 +54,28 @@ body {
     padding-right: 3%;
 }
 
+@media screen and (max-width: 768px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar-links {
+        width: 100%;
+        display: inline-block;
+        float: none;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .top-left {
+        padding: 0;
+    }
+
+}
+
 .navbar-links li {
     transition: 0.3s ease-in;
     list-style: none;
