@@ -237,6 +237,7 @@ li {
         margin: 0 auto;
         text-align: center;
         width: 100%;
+        padding: 0;
     }
 
     .navbar-links {
@@ -249,8 +250,9 @@ li {
 
     .top-left {
         background-color: rgba(18, 37, 38, 0.5);
-        ;
-        width: 100%;
+        width: calc(100% - 20px);
+        padding: 0px 10px;
+        text-align: center;
 
     }
 
